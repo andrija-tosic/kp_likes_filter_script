@@ -72,7 +72,7 @@ for k in range(1, br_stranica+1):
             name = (adsHTML[i].text.strip())
 
 
-            if re.search("i5", name, re.IGNORECASE) or re.search("i7", name, re.IGNORECASE) or re.search("ryzen 5 3", name, re.IGNORECASE) or re.search("ryzen 5 5", name, re.IGNORECASE) or re.search("ryzen 7", name, re.IGNORECASE): ## glavni uslov, posle tek lajkovi
+            if not re.search("1151|1155|1150|3930K", name, re.IGNORECASE) and re.search("i5|i7|i9|ryzen 5 3|ryzen 5 5|ryzen 7", name, re.IGNORECASE): ##glavni uslov, posle tek lajkovi
                 ## odavde parsing lajkova
                 adPage = requests.get(kpURL + str(link))
                 soup = BeautifulSoup(adPage.content, 'html.parser', from_encoding="iso-8859-1")
@@ -112,8 +112,8 @@ for k in range(1, br_stranica+1):
                 print("Ne ispunjava glavni uslov\n")
 
         if k<br_stranica+1:
-            print(f"Pauza {timeout*5} sekundi nakon otvaranja stranice\n")
-            time.sleep(timeout*5)
+            print(f"Pauza {timeout*3} sekundi nakon otvaranja stranice\n")
+            time.sleep(timeout*3)
 
     else:
         print("KP je verovatno blokirao IP, vise od 3 greske za redom, break...\n")
