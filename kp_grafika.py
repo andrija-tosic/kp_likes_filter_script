@@ -53,8 +53,8 @@ for k in range(1, br_stranica+1):
     
         soup = BeautifulSoup(page.content, 'html.parser', from_encoding="iso-8859-1")
 
-        ceneHTML = soup.find_all('span', "adPrice");
-        adsHTML = soup.find_all('a', "adName");
+        ceneHTML = soup.find_all('span', "adPrice")
+        adsHTML = soup.find_all('a', "adName")
 
         br_oglasa = len(ceneHTML)
 
@@ -72,7 +72,7 @@ for k in range(1, br_stranica+1):
             name = (adsHTML[i].text.strip())
 
 
-            if (re.search("6G", name, re.IGNORECASE) or re.search("8G", name, re.IGNORECASE)) and not re.search("4GB", name, re.IGNORECASE): ## glavni uslov, posle tek lajkovi
+            if re.search("6G|8G", name, re.IGNORECASE) and not re.search("4GB", name, re.IGNORECASE): ## glavni uslov, posle tek lajkovi
                 ## odavde parsing lajkova
                 adPage = requests.get(kpURL + str(link))
                 soup = BeautifulSoup(adPage.content, 'html.parser', from_encoding="iso-8859-1")
