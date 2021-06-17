@@ -1,0 +1,29 @@
+------------KP stranica 1/20------------
+[1] Graficka RX470 sa 4GB Memorije MSI
+[2] Rx 570 xfx 4Gb
+[3] Prodajem GTX 1050 ti 4GB
+[4] Graficka kartica AMD RADEON RX570 8gb
+Broj lajka je -1, manje je od minimum od 100
+[5] XFX RX-550P2PFG5 RX 550 2GB GDDR5 Core PCIE
+[6] BIOSTAR Radeon RX550 4GB GDDR5
+[7] BIOSTAR Radeon RX560 2GB GDDR5 PCIE
+[8] Graficka karta Biostar RX560 4GB GDDR5 128 bit DVI/DP/HDMI
+[9] Graficka karta Biostar RX560 4GB GDDR5 128 bit DVI/DP/HDMI
+[10] ASUS Nvidia GTX 1050Ti 4GB Phoenix, PERFEKTNA!, DirectX 12
+[11] BIOSTAR Radeon RX560 2GB GDDR5
+[12] PALIT NE5103000646-1080F GeForce GT 1030 2GB GDDR5
+[13] Graficka karta Biostar RX560 4GB GDDR5 128 bit DVI/DP/HDMI
+[14] Graficka karta Biostar RX560 4GB GDDR5 128 bit DVI/DP/HDMI
+[15] Graficka karta Biostar RX560 4GB GDDR5 128 bit DVI/DP/HDMI
+[16] Asus RX 570 4GB (nije rudarila i nije otvarana/popravljana)
+[17] BIOSTAR Radeon RX560 2GB GDDR5 PCIE
+[18] XFX RX 570 4GB OC
+[19] BIOSTAR Radeon RX560 2GB GDDR5 PCIE
+[20] Ati RX470 nitro
+[21] Saphire Radeon rx470 4 GB  Nitro +
+[22] Gigabyte Radeon HD6990 4GB 512Bit GDDR5 DirectX 11 PCI-e 3.0
+[23] Graficka kartica gtx 1060 3gb asus
+[24] Graficka karta GTX1050DDR52GB
+[25] ASUS GeForce GTX 1050Ti expedition
+[26] XFX AtiRadeon RX 570 4GB DDR5
+[27] Sapphire nitro plus oc 4 giga ddr5Rezervisano
